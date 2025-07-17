@@ -1,8 +1,7 @@
 <template>
 <footer>
     <div class="info">
-<p>Email: Footer@gmail.com</p>
-<p>Telephone: +38078456710</p>
+<p>2025 рік | Блоги</p>
 </div>
 </footer>
 </template>
