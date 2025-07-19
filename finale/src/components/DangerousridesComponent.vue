@@ -1,9 +1,9 @@
 <template>
   <div class="dangerous-rides">
     <h1>8 Найнебезпечніших атракціонів світу</h1>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5iM9mSPv9ApabTlmCsYDrcoSrP9sjWWpH8w&s" alt="booster" class="dangerousrides-img">
     <h2>Сьогодні ми поговоримо про 8 найнебезпечніших атракціонів світу, які були інциденти св'язані з ними,  чи були жертви, і чи роблять вони на сьогодні? </h2>
     <h2>Booster</h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5iM9mSPv9ApabTlmCsYDrcoSrP9sjWWpH8w&s" alt="booster" class="dangerousrides-img" @click="openModal">
     <p>Найнебезпечніший атракціон «Booster» — це високо-адреналіновий гойдалковий атракціон від італійської компанії Fabbri. Його конструкція — величезна горизонтальна стріла з кабінами на кінцях, що розганяються і обертаються, тримаючи пасажирів на висоті до ~50м, з силою до 4g і швидкістю близько 120 км/год . Booster  вважається небезпечнім, тому що кабіні падали і блокувались на висоті.</p>
        <p> Опис атракціона Booster:
         Максимальна навантаженя Booster було до 4 g, швидкість близько 120 км/год.
@@ -21,7 +21,7 @@
     </ul>
 
     <h2>Formula Rossa</h2>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Formula_Rossa_coaster.jpg/1200px-Formula_Rossa_coaster.jpg" alt="Formula Rossa" class="dangerousrides-img">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Formula_Rossa_coaster.jpg/1200px-Formula_Rossa_coaster.jpg" alt="Formula Rossa" class="dangerousrides-img" @click="openModal">
     <p> Formula Rossa - гідравлічні американські гірки, розташовані в тематичному парку розваг Ferrari World в Абу-Дабі, ОАЕ. Відкрилась Formula Rossa у 2010 році. Це найшвидшій у світі американські гірки: максимально досяжна швидкість становить 240 км/год. Вагонетка атракціону розганяється до цієї швидкості приблизно за 4,9 секунди з перевантаженнями, що досягають 4,8 g, за допомогою катапультної (гідравлічної) системи запуску, схожої на стартову катапульту авіаносця. Довжина траси становить 2074 м, за цим показником Formula Rossa посідає третє місце у світі, поступаючись атракціонам Steel Dragon 2000 і The Beast. Через високу швидкість і можливий ризик зіткнення з частинками в повітрі або комахами всі пасажири зобов'язані носити захисні окуляри.</p>
        Він настільки потужний і швидкий, що вважається одним із найнебезпечніших атракціонів, не через поломки, а через екстремальні навантаження на тіло.
       <p> Опис Formula Rossa:
@@ -40,7 +40,7 @@
   </ul>
 
   <h2>Kingda ka</h2>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Kingda_Ka.jpg/330px-Kingda_Ka.jpg" alt="Kingda Ka" class="dangerousrides-img">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Kingda_Ka.jpg/330px-Kingda_Ka.jpg" alt="Kingda Ka" class="dangerousrides-img" @click="openModal">
   <p>Kingda Ka - сталева американська гірка з гідравлічним запуском, розташована в парку розваг Six Flags Great Adventure в Джексоні, штат Нью-Джерсі, США. Виготовлений компанією Intamin та спроектований Вернером Штенгелем, Kingda Ka відкрився 21 травня 2005 року як найвищий та найшвидший американський атракціон у світі, перевершивши Top Thrill Dragster. Хоча обидва атракціони мали схожий дизайн, на Kingda Ka було додано повітряну гірку на зворотній ділянці траси. Це також був другий коли-небудь побудований пластовий атракціон, що перевищував 400 футів (120 м) у висоту.</p>
    <h3> Опис Kingda Ka: </h3>
     <p>Висота і довжина: 139 м і довжина 950 м.
@@ -55,7 +55,7 @@
   </ul>
 
  <h2>Eejanaika</h2>
- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Eejanaika_%28April_2023%29.jpg/1280px-Eejanaika_%28April_2023%29.jpg" alt="Eejanaika" class="dangerousrides-img">
+ <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Eejanaika_%28April_2023%29.jpg/1280px-Eejanaika_%28April_2023%29.jpg" alt="Eejanaika" class="dangerousrides-img" @click="openModal">
  <p>Eejanaika — це 4D-американська гірка, яка розташована в Fuji-Q Highland в м. Фудзійошіда, Японія і була відкрита у липні 2006 року. Eejanaika уникальна тім, що крісла обертаються незалежно від руху самої гірки, створюючи ще більше переворотів і G-навантажень.</p>
  <h3>Опис Eejanaika:</h3>
  <p>Тип атракціона - 4D coaster. Висота і довжина: 76 м і довжина 1153 м. Швидкість: до 126 км/год. Максимальне навантаження - 3,67 G</p>
@@ -70,7 +70,7 @@
  </ul>
 
  <h2>Expoland</h2>
- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/VistaLiner.jpg/1280px-VistaLiner.jpg" alt="Expoland" class="dangerousrides-img">
+ <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/VistaLiner.jpg/1280px-VistaLiner.jpg" alt="Expoland" class="dangerousrides-img" @click="openModal">
  <p>Expoland, розташований у Суїті, Японія, був відкритий як зона розваг на Міжнародній виставці 1970 року (Expo '70) в Осаці і процвітав понад 30 років як парк розваг. Було понад 40 атракціонів і атракціонів (зокрема вісім американських гірок і 19 ресторанів і магазинів). Парк було закрито 2009 року.</p>
  <h2>Інцідент</h2>
  <p>У 5 травня 2007 року, в атракціоні Fujia Raijin II один з вагонів зійшов із рейок на великій швидкості. 19-річна Йошино Когавару загинула миттєво і ще 20 людей отримали серйозні травми. Після цього парк Expoland було закрито на 6 місяців, а сам атракціон закрили назавжди. Потім в 2009 року парк був закрит остаточно. </p>
@@ -80,7 +80,7 @@
  </ul>
 
  <h2>Smiler</h2>
- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/TheSmiler2015%282%29.JPG/1280px-TheSmiler2015%282%29.JPG" alt="Smiler" class="dangerousrides-img">
+ <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/TheSmiler2015%282%29.JPG/1280px-TheSmiler2015%282%29.JPG" alt="Smiler" class="dangerousrides-img" @click="openModal">
  <p> The Smiler — один із найвідоміших і найнебезпечніших атракціонів у Великій Британії.Відкрився атракціон в 31 травня 2013 року. Він прославився не лише своїм рекордом кількості петель, а й катастрофічною аварією у 2015 році, яка змінила правила безпеки в індустрії.</p>
  <h2>Опис Smiler</h2>
  <p>Висота та довжина: 30 м і довжина 1170 м. Швидкість: 80 км/год. 16 пассажирів на поїзд.</p>
@@ -92,7 +92,7 @@
  </ul>
 
  <h2>Veruckt</h2>
- <img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Verr%C3%BCckt_%28water_slide%29_%2832137294436%29_%28cropped%29.jpg" alt="Veruckt" class="dangerousrides-img">
+ <img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Verr%C3%BCckt_%28water_slide%29_%2832137294436%29_%28cropped%29.jpg" alt="Veruckt" class="dangerousrides-img" @click="openModal">
  <p>Verrückt це найвідоміша і одна з найнебезпечніших водних гірок у світі, яка стала відомою через трагічний смертельний інцидент.</p>
  <h2>Опис Veruckt</h2>
  <p>Висота: 51,4 м. Цікавий факт, висота Veruckt віща за Ніагарський водоспад. Швидкість спуску: 113км/год</p>
@@ -104,7 +104,7 @@
  </ul>
 
  <h2>Tower of Terror II</h2>
- <img src="https://www.intamin.com/wp-content/uploads/2019/11/tower-of-terror-ii-2.jpg" alt="Tower of Terror II" class="dangerousrides-img">
+ <img src="https://www.intamin.com/wp-content/uploads/2019/11/tower-of-terror-ii-2.jpg" alt="Tower of Terror II" class="dangerousrides-img" @click="openModal">
  <p>Tower of Terror II - це сталеві човникові американські гірки, розташовані в парку розваг Dreamworld на Золотому узбережжі, Квінсленд, Австралія. Коли 23 січня 1997 року «Вежа терору» відкрилася, вона стала першою у світі американською гіркою, яка розвинула швидкість до 100 миль на годину (160 км/год), що зробило її найвищою і найшвидшою гіркою у світі на той час. Інцідентів не було в цьому атракціоні. 3 листопада 2019 року атракціон закрили із-за зниження популярності після трагедії на атракціоні Thunder River Rapids в 2016 року.</p>
  <h2>Опис Tower of Terror II</h2> 
  <p>Висота і довжина: 115 м і довжина 376 м. Швидкість і прискорення: 160 км/год і прискорення 0-160 км/год за 7 секунд.</p>
@@ -112,15 +112,82 @@
 <ul>
   <li><a href="https://en.wikipedia.org/wiki/Tower_of_Terror_II" target="_blank">Wiki: Tower of Terror II</a></li>
 </ul>
+   <div v-if="showModal" class="modal" @click.self="closeModal">
+      <img :src="imageSrc" alt="Fullscreen" class="modal-image" />
+      <button class="close-button" @click="closeModal">✖</button>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
 
-}
+  data() {
+    return {
+      showModal: false,
+      imageSrc: ""
+    };
+  },
+  methods: {
+    openModal() {
+      this.imageSrc = event.target.src;
+      this.showModal = true;
+    },
+    closeModal() {
+      this.showModal = false;
+      this.imageSrc = "";
+    }
+  }
+};
+
 </script>
 
-<style>
-
+<style scoped>
+.dangerousrides-img {
+  width:400px;
+  cursor: pointer;
+  border-radius:15px;
+  transition: transform 0.5s ease;
+  margin-bottom: 25px;
+}
+.dangerousrides-img:hover {
+  transition: scale(1.10);
+}
+.modal{
+  position: fixed;
+  inset: 0; /* top, right, bottom, left = 0 */
+  background-color: black ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+}
+.modal-image {
+  max-width: 100vw;
+  max-height: 100vh;
+  border-radius: 10px;
+  animation: zoomIn 0.3s ease;
+  box-shadow: 0 0 35px rgba(260, 260, 260, 0.2);;
+}
+@keyframes zoomIn {
+  from {
+  transform: scale(0.8);
+  opacity: 0;
+  }
+  to {
+  transform: scale(1);
+  opacity: 1;
+  }
+}
+.close-button {
+  position: fixed;
+  top:25px;
+  right:25px;
+  font-size:35px;
+  color:red;
+  background: transparent;
+  cursor: pointer;
+  z-index: 10002;
+  user-select: none;
+}
 </style>
