@@ -1,24 +1,29 @@
-import { createRouter, createWebHistory } from 'vue-router';
-import HomePage from './pages/HomePage.vue';
-import RequestPage from './pages/RequestPage.vue';
-import DangerousridesComponent from './components/DangerousridesComponent.vue';
+import { createRouter, createWebHistory } from 'vue-router'
+import HomePage from './pages/HomePage.vue'
+import DangerousridesComponent from './components/DangerousridesComponent.vue'
+import RequestPage from './pages/RequestPage.vue'
 
 const routes = [
-{
-path: '/',
-
-children: [ 
-{ path: '/',  name: 'HomePage', Component: HomePage},
-{ path: 'requests',name: 'Requestpage', component: RequestPage },
-{ path: '/dangerous-rides', name: 'DangerousRides', component: DangerousridesComponent }
-],
-},
+  {
+    path: '/',
+    name: 'Home',
+    component: HomePage
+  },
+  {
+    path: '/dangerous-rides',
+    name: 'Dangerousrides',
+    component: DangerousridesComponent
+  },
+  {
+    path: '/requests',
+    name: 'Request',
+    component: RequestPage
+  }
 ]
 
-
 const router = createRouter({
-history: createWebHistory(),
-routes
-});
+  history: createWebHistory(),
+  routes // ⬅️ передається масив з правильними об'єктами
+})
 
-export default router;
+export default router

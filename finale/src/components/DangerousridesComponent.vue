@@ -34,8 +34,8 @@
 
     <h2 id="Formula-Rossa">Formula Rossa</h2>
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Formula_Rossa_coaster.jpg/1200px-Formula_Rossa_coaster.jpg" alt="Formula Rossa" class="dangerousrides-img" @click="openModal">
-    <p> Formula Rossa - гідравлічні американські гірки, розташовані в тематичному парку розваг Ferrari World в Абу-Дабі, ОАЕ. Відкрилась Formula Rossa у 2010 році. Це найшвидшій у світі американські гірки: максимально досяжна швидкість становить 240 км/год. Вагонетка атракціону розганяється до цієї швидкості приблизно за 4,9 секунди з перевантаженнями, що досягають 4,8 g, за допомогою катапультної (гідравлічної) системи запуску, схожої на стартову катапульту авіаносця. Довжина траси становить 2074 м, за цим показником Formula Rossa посідає третє місце у світі, поступаючись атракціонам Steel Dragon 2000 і The Beast. Через високу швидкість і можливий ризик зіткнення з частинками в повітрі або комахами всі пасажири зобов'язані носити захисні окуляри.</p>
-       Він настільки потужний і швидкий, що вважається одним із найнебезпечніших атракціонів, не через поломки, а через екстремальні навантаження на тіло.
+    <p> Formula Rossa - гідравлічні американські гірки, розташовані в тематичному парку розваг Ferrari World в Абу-Дабі, ОАЕ. Відкрилась Formula Rossa у 2010 році. Це найшвидшій у світі американські гірки: максимально досяжна швидкість становить 240 км/год. Вагонетка атракціону розганяється до цієї швидкості приблизно за 4,9 секунди з перевантаженнями, що досягають 4,8 g, за допомогою катапультної (гідравлічної) системи запуску, схожої на стартову катапульту авіаносця. Довжина траси становить 2074 м, за цим показником Formula Rossa посідає третє місце у світі, поступаючись атракціонам Steel Dragon 2000 і The Beast. Через високу швидкість і можливий ризик зіткнення з частинками в повітрі або комахами всі пасажири зобов'язані носити захисні окуляри.
+       Він настільки потужний і швидкий, що вважається одним із найнебезпечніших атракціонів, не через поломки, а через екстремальні навантаження на тіло.</p>
       <p> Опис Formula Rossa:
        Швидкість і прискорення: 240 км/год і прискорення 0-100 км/год всего за 2 с.
        Довжина атракціону і висота: 2,2 км/год, висота 52 м.
@@ -122,7 +122,7 @@
  <p>Висота і довжина: 115 м і довжина 376 м. Швидкість і прискорення: 160 км/год і прискорення 0-160 км/год за 7 секунд.</p>
 <h2>Джерела</h2>
 <ul>
-  <li><a href="https://en.wikipedia.org/wiki/Tower_of_Terror_II" target="_blank">Wiki: Tower of Terror II</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Tower_of_Terror_II" target="_blank" >Wiki: Tower of Terror II</a></li>
 </ul>
    <div v-if="showModal" class="modal" @click.self="closeModal">
       <img :src="imageSrc" alt="Fullscreen" class="modal-image" />
@@ -155,6 +155,33 @@ export default {
 </script>
 
 <style scoped>
+.dangerous-rides{
+background-color: white;
+color:black;
+font-size:20px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin:35px auto;
+padding:15px;
+}
+ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ list-style: none;
+}
+a{
+  text-decoration: none;
+  font-size:18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:green;
+  gap:10px;
+  padding:15px;
+  margin: 15px;
+}
+a:hover{
+  color:aqua;
+  font-size:25px;
+}
 .dangerousrides-img {
   width:400px;
   cursor: pointer;
@@ -167,7 +194,7 @@ export default {
 }
 .modal{
   position: fixed;
-  inset: 0; /* top, right, bottom, left = 0 */
+  inset: 0; 
   background-color: black ;
   display: flex;
   align-items: center;

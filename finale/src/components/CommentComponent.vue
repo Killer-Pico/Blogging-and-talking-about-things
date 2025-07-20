@@ -55,6 +55,55 @@ export default {
 </script>
 
 
-<style>
+<style scoped>
+.comment{
+width:600px;
+height:600px;
+margin:45px auto;
+padding:25px;
+background-color:white;
+color:black;
+border-radius:15px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.comment-form{
+  display:flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 22px;
+}
 
+.comment-form input {
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+}
+
+.comment-form button {
+  align-self: flex-start;
+  padding: 14px 16px;
+  background-color: aqua;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.comment-form button:hover {
+  background-color: #218838;
+}
+
+.comment-list {
+  list-style: none;
+  padding: 0;
+}
+
+.comment-list li {
+  background-color: #fff;
+  padding: 12px 14px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+}
 </style>
+

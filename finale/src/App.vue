@@ -6,24 +6,23 @@
       <router-link to="/dangerous-rides">Небезпечні атракціони</router-link>
     </nav>
     <router-view />
-    <DangerousridesComponent />
     <CommentComponent />
-    <FooterComponent />
+   <FooterComponent />
   </div>
 </template>
 
 <script>
-import DangerousridesComponent from './components/DangerousridesComponent.vue';
+
 import CommentComponent from './components/CommentComponent.vue';
 import FooterComponent from './components/FooterComponent.vue';
+
 
 
 export default {
   name: 'App',
   components: {
-    DangerousridesComponent,
-    CommentComponent,
-    FooterComponent
+  FooterComponent,
+  CommentComponent
    },
 }
 </script>

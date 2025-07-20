@@ -14,6 +14,24 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ list-style: none;
+}
+a{
+  text-decoration: none;
+  font-size:18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:green;
+  gap:10px;
+  padding:15px;
+  margin: 15px;
+}
+a:hover{
+  color:aqua;
+  font-size:25px;
+}
 </style>
