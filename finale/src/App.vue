@@ -36,6 +36,16 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+a{
+  color:seagreen;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size:18px;
+  text-decoration: none;
+}
+a:hover{
+  color:aqua;
+  font-size: 24px;
+}
 nav {
   display: flex;
   gap: 20px;

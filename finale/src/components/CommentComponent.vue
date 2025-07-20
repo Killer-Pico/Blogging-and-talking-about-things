@@ -99,6 +99,7 @@ box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .comment-list li {
+  list-style: none;
   background-color: #fff;
   padding: 12px 14px;
   margin-bottom: 10px;
