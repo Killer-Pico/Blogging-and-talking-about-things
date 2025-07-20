@@ -1,15 +1,16 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import AdminDashboard from './pages/AdminDashboard.vue';
+import HomePage from './pages/HomePage.vue';
 import RequestPage from './pages/RequestPage.vue';
-import LoginPage from './pages/LoginPage.vue';
+import DangerousridesComponent from './components/DangerousridesComponent.vue';
 
 const routes = [
 {
 path: '/',
-component: AdminDashboard, // Використовуємо AdminDashboard як головний компонент
+
 children: [ 
+{ path: '/',  name: 'HomePage', Component: HomePage},
 { path: 'requests',name: 'Requestpage', component: RequestPage },
-{ path: '/dangerous-rides', name: 'DangerousRides', component: DangerousRidesPage }
+{ path: '/dangerous-rides', name: 'DangerousRides', component: DangerousridesComponent }
 ],
 },
 ]
