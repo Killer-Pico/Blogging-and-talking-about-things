@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomePage from './pages/HomePage.vue'
 import DangerousridesComponent from './components/DangerousridesComponent.vue'
 import RequestPage from './pages/RequestPage.vue'
+import BlogTopicsPage from './pages/BlogTopicsPage.vue'
 
 const routes = [
   {
@@ -18,6 +19,11 @@ const routes = [
     path: '/requests',
     name: 'Request',
     component: RequestPage
+  },
+  {
+path: '/blog-topics',
+name: 'BlogTopics',
+component: BlogTopicsPage
   }
 ]
 
